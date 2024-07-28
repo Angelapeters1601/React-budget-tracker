@@ -1,0 +1,187 @@
+body {
+  background: linear-gradient(90deg, #ff69b4 60%, #f7f742);
+  color: #000;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+}
+
+span {
+  font-size: 35px;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.income,
+.food {
+  padding: 20px 20px 0 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  background-color: rgb(242, 216, 181);
+}
+
+.income label,
+.food label {
+  background-color: rgb(34, 188, 244);
+  display: block;
+  text-align: start;
+  width: 100%;
+  padding: 10px 0 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -20px;
+  border-bottom-right-radius: 30px;
+}
+
+.income h2,
+.food h2 {
+  font-size: 20px;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.income input,
+.food input {
+  width: 96%;
+  font-size: 17px;
+  padding: 9px 0 9px 4px;
+  background-color: transparent;
+  border: 2px solid rgb(220, 200, 171);
+  border-radius: 10px;
+  margin: 0 0 20px 15px;
+  outline: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.bills,
+.expenses,
+.savings,
+.debt,
+.total {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.bills,
+.expenses {
+  padding: 20px 20px 0 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  background-color: rgb(235, 158, 190);
+}
+
+.bills label,
+.expenses label {
+  background-color: rgb(53, 222, 70);
+  display: block;
+  text-align: start;
+  width: 100%;
+  padding: 10px 0 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -20px;
+  border-bottom-right-radius: 30px;
+}
+
+.bills input,
+.expenses input {
+  width: 96%;
+  font-size: 17px;
+  padding: 9px 0 9px 4px;
+  background-color: transparent;
+  border: 2px solid rgb(220, 200, 171);
+  border-radius: 10px;
+  margin: 8px 0 20px 15px;
+  outline: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.debt,
+.savings,
+.total {
+  padding: 20px 20px 0 0;
+  border-radius: 10px;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  background-color: transparent;
+  margin-bottom: 100px;
+}
+
+.debt label,
+.total label,
+.savings label {
+  background-color: rgb(202, 54, 173);
+  display: block;
+  text-align: start;
+  width: 100%;
+  padding: 10px 0 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -20px;
+  border-bottom-right-radius: 30px;
+}
+
+.debt input,
+.savings input,
+.total input {
+  width: 96%;
+  font-size: 17px;
+  padding: 9px 0 9px 4px;
+  color: black;
+  background-color: rgb(235, 229, 221);
+  border: 2px solid rgb(213, 178, 127);
+  border-radius: 10px;
+  margin: 8px 0 20px 15px;
+  outline: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.debt .footer,
+.total .footer,
+.savings .footer {
+  background-color: rgb(243, 172, 147);
+  border-bottom-right-radius: 30px;
+  border: none;
+}
+.footer {
+  font-weight: bold;
+}
+
+.label {
+  color: rgb(24, 6, 89);
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
